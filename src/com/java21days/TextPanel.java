@@ -4,6 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 
 public class TextPanel extends JPanel {
+    String text;
+
+    TextPanel(String text){
+        super();
+        this.text = text;
+    }
 
     @Override
     public void paintComponent(Graphics comp){
